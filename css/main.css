@@ -58,53 +58,10 @@ main img {
   padding-bottom: 10rem;
 }
 
-.img_conteiner {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  gap: 10px;
-  margin: 10px;
+.carousel-inner .carousel-item {
+  width: 800px;
 }
-.img_conteiner img {
-  height: 450px;
-}
-
-.video_conteiner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
-}
-
-.video__conteiner {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  max-width: 100%;
-  max-height: 100%;
-}
-.video__conteiner .video, .video__conteiner .video1, .video__conteiner .video2 {
-  width: 400px;
-  height: 400px;
-}
-
-@media only screen and (max-width: 576px) {
-  .img_conteiner {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .video_conteiner {
-    flex-direction: column;
-    margin: 10px;
-    justify-items: center;
-  }
-  .video_conteiner iframe {
-    margin-top: 10px;
-  }
-  .video__conteiner {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
-  }
+.carousel-inner .carousel-item img {
+  width: 640px;
+  height: 550px;
 }/*# sourceMappingURL=main.css.map */
